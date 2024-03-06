@@ -30,8 +30,8 @@ group = moveit_commander.MoveGroupCommander(group_name)
 def Call():	
 	rospy.init_node('modify_teleoperation', anonymous=True) 
 	#geomagic_pose_sub = rospy.Subscriber('/phantom/pose', geometry_msgs.msg.PoseStamped, Phantom, queue_size=10)
-	geomagic_joint_sub = rospy.Subscriber('/phantom/joint_states', sensor_msgs.msg.JointState, Phantom, queue_size=1)
-	sim_joint_sub = rospy.Subscriber('/joint_states', sensor_msgs.msg.JointState, main, queue_size=1) #position of ur5 simulation
+	rospy.Subscriber('/phantom/joint_states', sensor_msgs.msg.JointState, Phantom, queue_size=1)
+	rospy.Subscriber('/joint_states', sensor_msgs.msg.JointState, main, queue_size=1) #position of ur5 simulation
 	rospy.spin()
     	
 #Phantom state
