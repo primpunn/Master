@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1.3)
-project(test)
+project(Master)
 
 #find_package(catkin REQUIRED) #This is original
 find_package(catkin REQUIRED COMPONENTS
