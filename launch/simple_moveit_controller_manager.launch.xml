@@ -4,6 +4,6 @@
 value="moveit_simple_controller_manager/MoveItSimpleControllerManager" />
 
  <!-- Load controller list to the parameter server -->
- <rosparam file="$(find test)/config/simple_moveit_controllers.yaml"/>
- <rosparam file="$(find test)/config/new_ros_controllers.yaml">
+ <rosparam file="$(find Master)/config/simple_moveit_controllers.yaml"/>
+ <rosparam file="$(find Master)/config/new_ros_controllers.yaml">
 </launch>
