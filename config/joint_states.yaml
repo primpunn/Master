@@ -1,0 +1,19 @@
+joint_states:
+  shoulder_pan_joint:
+    position: [0, 0, 0.089159]  # Replace with the actual position for shoulder_pan_joint
+    orientation: [0, 0, 0]  # Replace with the actual orientation for shoulder_pan_joint
+  shoulder_lift_joint:
+    position: [0, 0, 0]  # Replace with the actual position for shoulder_lift_joint
+    orientation: [1.570796327, 0, 0]  # Replace with the actual orientation for shoulder_lift_joint
+  elbow_joint:
+    position: [-0.425, 0, 0]  # Replace with the actual position for elbow_joint
+    orientation: [0, 0, 0]  # Replace with the actual orientation for elbow_joint
+  wrist_1_joint:
+    position: [-0.39225, 0, 0.10915]  # Replace with the actual position for wrist_1_joint
+    orientation: [0, 0, 0]  # Replace with the actual orientation for wrist_1_joint
+  wrist_2_joint:
+    position: [0, -0.09465, -1.941303950897609e-11]  # Replace with the actual position for wrist_2_joint
+    orientation: [1.570796327, 0, 0]  # Replace with the actual orientation for wrist_2_joint
+  wrist_3_joint:
+    position: [0, 0.0823, -1.688001216681175e-11]  # Replace with the actual position for wrist_3_joint
+    orientation: [1.570796326589793, 3.141592653589793, 3.141592653589793]  # Replace with the actual orientation for wrist_3_joint
